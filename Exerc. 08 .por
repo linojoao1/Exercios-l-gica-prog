@@ -7,9 +7,9 @@ escreva("Digite o ano: ")
 leia(ano)
 
 se (ano % 4 == 0 ){
-    escreva(ano, " È um ano bissexto.")}
+    escreva(ano, " √© um ano bissexto.")}
 senao
-    escreva(ano, " n„o È um ano bissexto.")}
+    escreva(ano, " n√£o √© um ano bissexto.")}
     
   }
 }
