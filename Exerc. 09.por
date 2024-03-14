@@ -7,9 +7,9 @@ programa {
     leia(idade)
 
     se(idade>=18){
-      escreva("Você ja acalçou a maioridade")}
+      escreva("VocÃª ja acalÃ§ou a maioridade")}
     senao{
-      escreva("Você nao é adulto ainda")}
+      escreva("VocÃª nao Ã© adulto ainda")}
 
 
 
