@@ -20,7 +20,7 @@ programa {
     leia(media4)
 
     mediaf=(media1+media2+media3+media4)/4
-    escreva("\nMédia Final: ", mediaf)
+    escreva("\nMÃ©dia Final: ", mediaf)
 
     se(mediaf>=7){
       escreva("\nAprovado\n")
