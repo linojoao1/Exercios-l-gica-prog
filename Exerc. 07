@@ -6,9 +6,9 @@ programa {
     real aumento
     real result
 
-    escreva("digite o salário do funcionário: ")
+    escreva("digite o salÃ¡rio do funcionÃ¡rio: ")
     leia(salario)
-    escreva("digite o aumento do salário em porcentagem: ")
+    escreva("digite o aumento do salÃ¡rio em porcentagem: ")
     leia(porc)
 
     aumento = (salario*porc)/100
@@ -16,7 +16,7 @@ programa {
 
     
 
-    escreva("\nSalário atual: ", salario)
+    escreva("\nSalÃ¡rio atual: ", salario)
     escreva("\nPorcentagem selecionada: ", porc, "%")
     escreva("\nSalario final: ",result )
     
