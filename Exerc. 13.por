@@ -15,19 +15,19 @@ programa {
     escreva("\nIMC: ", calculo)
 
     se(calculo<=16.9){
-      escreva("\nVocê está muito abaixo do peso")}
+      escreva("\nVocÃª estÃ¡ muito abaixo do peso")}
     se(calculo>=17 e calculo<=18.4){
-      escreva("\nVocê está abaixo do peso")}
+      escreva("\nVocÃª estÃ¡ abaixo do peso")}
     se(calculo>=18.5 e calculo<=24.9){
-      escreva("\nVocê está no peso normal")}
+      escreva("\nVocÃª estÃ¡ no peso normal")}
     se(calculo>=25 e calculo<=29.9){
-      escreva("\nVocê está acima do peso")}
+      escreva("\nVocÃª estÃ¡ acima do peso")}
     se(calculo>=30 e calculo<=34.9){
-      escreva("\nVocê está com Obesidade I")}
+      escreva("\nVocÃª estÃ¡ com Obesidade I")}
     se(calculo>=35 e calculo<=40){
-      escreva("\nVocê está com Obesidade II")}
+      escreva("\nVocÃª estÃ¡ com Obesidade II")}
     se(calculo>40){
-      escreva("\nVocê está com Obesidade III")}
+      escreva("\nVocÃª estÃ¡ com Obesidade III")}
 
 
 
