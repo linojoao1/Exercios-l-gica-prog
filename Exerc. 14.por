@@ -4,36 +4,29 @@ programa
 	
 	funcao inicio()
 	{
-
 	cadeia cpf
-	
+	inteiro digito
 
-	escreva("Digite o CpF: ")
+	escreva("Digite o Cpf: ")
 	leia(cpf)
 
-	
+	digito = Texto.numero_caracteres(cpf)
 
-	se(cpf <= 99999999999){				
-		escreva("Cpf válido")
-	}senao{
-		escreva("Cpf inválido")
-	}
-
-	
-
-	
-
+	se(digito == 11){
+	escreva("CPF válido")
 	
 		
+	}senao{
+	escreva("CPF inválido")
+	}
 	}
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 177; 
+ * @POSICAO-CURSOR = 226; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
